@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo">Atlanq093</a>
+
+    <!-- CHECKBOX -->
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- NAV -->
+    <nav class="nav">
+        <ul class="nav__menu">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#certifications" class="nav__link">Certifications</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- BURGER -->
+    <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero__container">
+
+            <div class="hero__image">
+                <!-- OBRAZ MUSI BYĆ W FOLDERZE images -->
+                <img src="19a87347-81ab-49f7-96f2-70bdbaeb1d3a.jpg" alt="Profile">
+            </div>
+
+            <div class="hero__content">
+                <h1 class="hero__greeting">Hi</h1>
+                <h2 class="hero__name">I am Laura Lewtak</h2>
+                <p class="hero__description">
+                    Aspiring DevOps engineer with a passion for fullstack development.
+                    I enjoy tackling complex problems and continuously expanding my technical skills
+                    through hands-on projects and new challenges.
+                </p>
+
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__grid">
+                <div class="skills__item">
+                    <h3>DevOps</h3>
+                </div>
+                <div class="skills__item">
+                    <h3>Backend</h3>
+                </div>
+                <div class="skills__item">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section__title">Certifications</h2>
+
+            <div class="certifications__grid">
+
+                <div class="certifications__item">
+                    <img src="images/cert1.jpg" alt="Certification 1">
+                </div>
+
+                <div class="certifications__item">
+                    <img src="images/cert2.jpg" alt="Certification 2">
+                </div>
+
+                <div class="certifications__item">
+                    <img src="images/cert3.jpg" alt="Certification 3">
+                </div>
+
+                <div class="certifications__item">
+                    <img src="images/cert4.jpg" alt="Certification 4">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section__title">Contact</h2>
+
+            <div class="social">
+                <a href="#" class="social__link" aria-label="LinkedIn">in</a>
+                <a href="#" class="social__link" aria-label="GitHub">gh</a>
+                <a href="#" class="social__link" aria-label="Email">@</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Laura Lewtak. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
